@@ -1,0 +1,8 @@
+<%= simple_form_for [@category, @product] do |f| %>
+  <%= f.input :producto %>
+  <%= f.input :cantidad %>
+  <%= f.input :precio %>
+  <%= f.input :descripcion %>
+
+  <%= f.button :submit, class:"btn btn-primary btn-block" %>
+<% end %>
